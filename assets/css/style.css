@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.divTop {
+    padding: 5px;
+    display: flex;
+
+}
+
+body>main>article>form>fieldset>div.divTop>div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.divBottom {
+    padding: 5px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 3vh;
+    width: 196px;
+}
+
+body>main>article>form>fieldset>legend {
+    margin-left: 5px;
+}
+
+body>main>article>form>fieldset>div.divBottom>input[type=submit]:nth-child(1),
+input[type=reset]:nth-child(2) {
+    height: 3vh;
+    width: 20%;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 2px;
+}
